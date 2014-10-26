@@ -10,3 +10,14 @@
     # 0.6 or greater should return the grade "D"
 
 #Write a method smash that takes an array of words and smashes them together into a sentence and returns the sentence.
+
+
+def odd_or_even(number)
+  if number.to_i/2 == number.to_f/2
+    "even"
+  else
+    "odd"
+  end
+end
+
+puts odd_or_even(3)
